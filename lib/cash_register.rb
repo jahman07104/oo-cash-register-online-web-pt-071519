@@ -8,17 +8,16 @@ class Person
     self.age += 1
   end
 end
-```
 
- Follow along with the specs in `spec/cash_register_spec.rb`. Reading along with what the tests are looking for can be really helpful!
+# Follow along with the specs in `spec/cash_register_spec.rb`. Reading along with what the tests are looking for can be really helpful!
 
- Take it one step at a time!
-
+# Take it one step at a time!
 
 
- **Hint #2:** The `void_last_transaction` method will remove the last transaction from the total. You'll need to make an additional attribute accessor and keep track of that last transaction amount somehow. In what method of the class are you working with an individual item?
 
- <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-cash-register' title='Object Oriented Cash Register'>Object Oriented Cash Register</a> on Learn.co and start learning to code for free.</p>
+# **Hint #2:** The `void_last_transaction` method will remove the last transaction from the total. You'll need to make an additional attribute accessor and keep track of that last transaction amount somehow. In what method of the class are you working with an individual item?
+
+# <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-cash-register' title='Object Oriented Cash Register'>Object Oriented Cash Register</a> on Learn.co and start learning to code for free.</p>
   39  oo-cash-register-v-000/lib/cash_register.rb 
 @@ -0,0 +1,39 @@
 require 'pry'
