@@ -1,4 +1,3 @@
-
 class CashRegister 
   
   attr_accessor :discount, :total, :employee_discount, :items, :price 
@@ -45,3 +44,4 @@ class CashRegister
   
   #end 
 end 
+end
