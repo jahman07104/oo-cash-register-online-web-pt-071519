@@ -33,8 +33,10 @@ class CashRegister
   end
 
    def void_last_transaction
-    @running_totals.pop
-     @total = running_totals.last
+    last_transaction+@transaction.pop
+     @total -= last_transaction[:amount]
+     last_transaction[:quantity].times do
+       @items.pop
   end
 def items
 @items 
